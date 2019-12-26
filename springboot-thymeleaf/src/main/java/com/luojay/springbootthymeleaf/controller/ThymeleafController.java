@@ -9,4 +9,8 @@ public class ThymeleafController {
     public String Welcome(){
         return "luojay";
     }
+    @RequestMapping("/login")
+    public String Login(){
+        return "login";
+    }
 }
