@@ -1,4 +1,5 @@
 ###   :triangular_flag_on_post:SpringBoot-Study
+[![JDK-Version](https://img.shields.io/badge/JDK-1.8+-blue)]()[![Maven-Version](https://img.shields.io/badge/Maven-3.3+-blue)]()[![SpringBoot-Version](https://img.shields.io/badge/SpringBoot-2.2.2-blue)]()<br>
 ​		SpringBoot-Study仓库是一个记录学习本人SpringBoot的过程，基本上都是简单的小案例，每个小案例有配套的图文博文，同时配套一个独立的Module放在github上，在学习的过程中会参考网上他人的博文及视频等资料，这个过程可能会有写的内容跟其他的博主的博文类似。即使是相同的内容，每个人的理解是不同，记录和叙述的方式都是不同，只要怀着对知识敬畏的态度，那么站在巨人的肩膀上摘苹果可能成功的概率会大很多，所以博文有侵权的地方请告知，本人会及时处理。
 
 > #### 本项目搭建的环境及工具🚀
@@ -24,9 +25,11 @@
 ![运行项目](https://bobi-1258060032.cos.ap-chengdu.myqcloud.com/SpringBoot-Study/SpringBoot-Study-RunStudy.png)
 >#### 每个模块对应的博文🔗
 
-SpringBoot快速入门案例(一)：[springboot-start]( https://www.cnblogs.com/codeluojay/p/12075174.html )
-Spring Boot入门案例修改默认配置(二):[springboot-banner](https://www.cnblogs.com/codeluojay/p/12080997.html)
+SpringBoot快速入门案例(一)：[springboot-start]( https://www.cnblogs.com/codeluojay/p/12075174.html )<br>
+Spring Boot入门案例修改默认配置(二):[springboot-banner](https://www.cnblogs.com/codeluojay/p/12080997.html)<br>
+SpringBoot整合Thymeleaf(三):[springboot-thymeleaf](https://www.cnblogs.com/codeluojay/p/12105125.html)<br>
+SpringBoot整合LayUI和Thymeleaf制作简单登录页面(四):[springboot-themeleaf-layui](https://www.cnblogs.com/codeluojay/p/12235038.html)<br>
 
 >#### 联系方式
-博客园:[Codeluojay](https://www.cnblogs.com/codeluojay/)
-简书:[Codeluojay](https://www.jianshu.com/u/f9fc25bef75c)
+博客园:[Codeluojay](https://www.cnblogs.com/codeluojay/)<br>
+简书:[Codeluojay](https://www.jianshu.com/u/f9fc25bef75c)<br>
