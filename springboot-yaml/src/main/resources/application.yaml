@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+student:
+  studentName: CodeLuoJay
+  studentId: 202035020201
+  studentInfo: {className: 软件工程2班,teacher: bobi8344,department: cis}
+  major:
+    - C语言
+    - Java程序设计
+    - MySQL数据库
+  dormitory:
+    dormitoryName: 12D503
+    dormitoryNo: 202012D503
