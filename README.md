@@ -29,7 +29,8 @@ SpringBoot快速入门案例(一)：[springboot-start]( https://www.cnblogs.com/
 Spring Boot入门案例修改默认配置(二):[springboot-banner](https://www.cnblogs.com/codeluojay/p/12080997.html)<br>
 SpringBoot整合Thymeleaf(三):[springboot-thymeleaf](https://www.cnblogs.com/codeluojay/p/12105125.html)<br>
 SpringBoot整合LayUI和Thymeleaf制作简单登录页面(四):[springboot-themeleaf-layui](https://www.cnblogs.com/codeluojay/p/12235038.html)<br>
-
+SpringBoot整合bootstrap和thymeleaf制作简单登录界面[https://github.com/bobi8344/SpringBoot-Study/tree/master/springboot-thymeleaf-bootstrapui](https://www.cnblogs.com/codeluojay/p/12237611.html)<br>
+SpringBoot快速入门Yaml配置文件(五)[springboot-yaml](https://www.cnblogs.com/codeluojay/p/12387519.html)<br>
 >#### 联系方式
 博客园:[Codeluojay](https://www.cnblogs.com/codeluojay/)<br>
 简书:[Codeluojay](https://www.jianshu.com/u/f9fc25bef75c)<br>
