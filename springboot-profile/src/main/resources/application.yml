@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: dev
+---
+#开发环境
+spring:
+  profiles: dev
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1/devprofile?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+---
+#测试环境
+spring:
+  profiles: test
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1/testprofile?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
