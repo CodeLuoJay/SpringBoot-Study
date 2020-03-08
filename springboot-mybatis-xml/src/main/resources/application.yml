@@ -1,0 +1,19 @@
+# datasource数据源配置信息
+spring:
+  datasource:
+    # JDBC连接Mysql8.0驱动是加载com.mysql.cj.jdbc.Driver而非com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # Mysql8.0驱动会自动检查mysql的时区，如果mysql默认的配置文件my.ini没有修改过时区，则要加上serverTimezone=UTC，否则会报时区错误
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+
+#mybatis配置信息
+mybatis:
+  # 映射文件的路径
+  mapper-locations: classpath:mapper/*.xml
+  # 类型别名包配置，只能指定具体的包，多个配置可以使用英文逗号隔开
+  type-aliases-package: com.luojay.mybatisxml.domain.Student
+  # Mybatis SQL语句控制台打印
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

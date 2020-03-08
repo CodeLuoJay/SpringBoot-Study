@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.luojay.mybatisxml.mapper.StudentMapper">
+    <select id="findAllStudent"  resultType="com.luojay.mybatisxml.domain.Student">
+        select * from student;
+    </select>
+    <insert id="insertStudent" parameterType="com.luojay.mybatisxml.domain.Student">
+        insert into student(name,age)values(#{name},#{age});
+    </insert>
+    <update id="updateStudent" parameterType="com.luojay.mybatisxml.domain.Student">
+        update student set name=#{name} where id=#{id};
+    </update>
+    <delete id="deleteStudentById" parameterType="Integer">
+        delete from student where id=#{id};
+    </delete>
+</mapper>
